@@ -1,0 +1,5 @@
+SELECT * 
+FROM OrderDetails 
+WHERE ProductID LIKE '%7' 
+ORDER BY OrderID 
+LIMIT 5;
