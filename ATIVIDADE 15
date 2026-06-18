@@ -1,0 +1,4 @@
+SELECT * FROM OrderDetails
+from Qantity
+ORDER BY ProductID AND OrderID
+LIMIT 7;
