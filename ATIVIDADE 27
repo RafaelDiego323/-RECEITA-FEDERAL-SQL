@@ -1,0 +1,5 @@
+SELECT * 
+FROM OrderDetails 
+WHERE OrderDetailID BETWEEN 5 AND 50 
+ORDER BY OrderID 
+LIMIT 10;
