@@ -1,0 +1,5 @@
+SELECT*
+FROM OrderDetails
+WHERE ProductID >3
+order by OrderID
+LIMIT 3;
