@@ -1,0 +1,4 @@
+SELECT * 
+FROM OrderDetails
+WHERE Quantity < 5 OR ProductID >20 
+ORDER BY OrderDetailID limit 5;
