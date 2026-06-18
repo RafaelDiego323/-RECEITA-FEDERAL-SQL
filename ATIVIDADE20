@@ -1,0 +1,6 @@
+SELECT * 
+FROM OrderDetails 
+WHERE OrderID 
+BETWEEN 10 AND 30 
+ORDER BY ProductID 
+LIMIT 6;
