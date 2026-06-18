@@ -1,0 +1,4 @@
+SELECT * FROM OrderDetails
+from OrderID > 25
+ORDER BY ProductID
+LIMIT 10;
