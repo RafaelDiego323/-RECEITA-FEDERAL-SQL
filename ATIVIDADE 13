@@ -1,0 +1,5 @@
+SELECT*
+FROM OrderDetails
+WHERE ProductID
+ORDER BY OrderDetailID DESC
+LIMIT 5;
