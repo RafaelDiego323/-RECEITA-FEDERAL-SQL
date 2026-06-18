@@ -1,0 +1,5 @@
+SELECT * 
+FROM OrderDetails 
+WHERE OrderDetailID < 200 
+ORDER BY OrderID 
+LIMIT 7;
