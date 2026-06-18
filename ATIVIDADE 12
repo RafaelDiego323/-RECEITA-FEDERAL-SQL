@@ -1,0 +1,5 @@
+SELECT*
+FROM OrderDetails
+WHERE ProductID %2=0
+order by Quantity
+LIMIT 6;
