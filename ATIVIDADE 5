@@ -1,1 +1,7 @@
+SELECT*
+FROM OrderDetails
+WHERE OrderID
+order by OrderDetailID
+asc
+LIMIT 2;
 
