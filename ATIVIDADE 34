@@ -1,0 +1,5 @@
+SELECT * 
+FROM OrderDetails 
+WHERE Quantity % 5 = 0 
+ORDER BY ProductID 
+LIMIT 7;
