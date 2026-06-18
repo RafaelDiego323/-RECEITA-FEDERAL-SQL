@@ -1,4 +1,4 @@
 SELECT * FROM OrderDetails
 from OrderDetailID < 50
 ORDER BY Quantity
-LIMIT 10;
+LIMIT 4;
