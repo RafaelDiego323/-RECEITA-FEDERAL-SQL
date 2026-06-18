@@ -1,0 +1,5 @@
+SELECT*
+FROM OrderDetails
+WHERE Quantity < 15
+order by OrderDetails
+LIMIT 12;
