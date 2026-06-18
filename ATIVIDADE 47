@@ -1,0 +1,5 @@
+SELECT * 
+FROM OrderDetails 
+WHERE OrderID LIKE '%0' 
+ORDER BY Quantity 
+LIMIT 2;
