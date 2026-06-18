@@ -1,0 +1,5 @@
+SELECT * 
+FROM OrderDetails 
+WHERE OrderID % 2 <> 0 
+ORDER BY Quantity 
+LIMIT 10;
