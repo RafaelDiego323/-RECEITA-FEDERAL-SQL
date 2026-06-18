@@ -1,0 +1,4 @@
+SELECT * FROM OrderDetails
+from Qantity
+ORDER BY OrderID
+LIMIT 9;
