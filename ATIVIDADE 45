@@ -1,0 +1,4 @@
+SELECT * 
+FROM OrderDetails 
+ORDER BY Quantity DESC, OrderDetailID 
+LIMIT 12;
