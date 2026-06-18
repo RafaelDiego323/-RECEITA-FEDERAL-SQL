@@ -1,0 +1,4 @@
+SELECT * 
+FROM OrderDetails 
+ORDER BY OrderID ASC, ProductID 
+LIMIT 12;
