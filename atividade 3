@@ -1,4 +1,5 @@
 select*
 from OrderDetails
 WHERE Quantity
-order by OrderDetailID LIMIT 7;
+order by OrderDetailID DESC 
+LIMIT 7 ;
