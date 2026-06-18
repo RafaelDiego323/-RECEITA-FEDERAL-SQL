@@ -1,0 +1,4 @@
+SELECT * FROM OrderDetails
+from OrderID=20
+ORDER BY OrderID
+LIMIT 2;
